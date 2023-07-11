@@ -8,7 +8,9 @@
   }
   .menu .menuTitle {
     font-family: cursive;
-    font-size: 60px;
+    font-size: 20px;
+    justify-content: center;
+    
   }
   
   .menuList {
@@ -17,9 +19,8 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     place-items: center;
+    align-items: center;
   }
-  
-  /* MENU ITEM STYLING */
   
   .menuItem {
     border-radius: 15px;
@@ -44,10 +45,17 @@
     background-size: cover;
   }
   
-  .menuItem h1,
-  .menuItem p {
+  .menuItem h1
+  {
     margin-left: 20px;
   }
+
+  .menu button,
+  .menu p{
+    margin-left: 40px;
+
+  }
+
   
   @media only screen and (max-width: 1300px) {
     .menuList {
@@ -59,4 +67,19 @@
     .menuList {
       grid-template-columns: 1fr;
     }
+  }
+  .addToCartBtn{
+    background-color: transparent;
+    border: 2px solid rgb(19, 19, 19);
+    min-width: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 15px;
+  }
+  .addToCartBtn:hover{
+    background-color: rgb(19, 19, 19);
+    color: white;
+    cursor: pointer;
   }
