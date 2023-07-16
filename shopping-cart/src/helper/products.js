@@ -1,10 +1,10 @@
-import product1 from './assets/download1.jpeg'
-import product2 from './assets/download2.jpeg'
-import product3 from './assets/download3.jpeg'
-import product4 from './assets/download4.jpeg'
-import product5 from './assets/download5.jpeg'
-import product6 from './assets/download6.jpeg'
-import product7 from './assets/download7.jpeg'
+import product1 from '../assets/camera1.jpg'
+import product2 from '../assets/camera2.jpeg'
+import product3 from '../assets/camera3.jpeg'
+import product4 from '../assets/camera4.jpeg'
+import product5 from '../assets/camera5.jpeg'
+import product6 from '../assets/camera6.jpeg'
+import product7 from '../assets/camera7.jpeg'
 
 export const PRODUCTS = [
     

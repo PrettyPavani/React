@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import { PRODUCTS } from "../../products";
+import { PRODUCTS } from "../../helper/products";
 import { ShopContext } from "../../context/shop-context";
 import CartItem from "./cart-item";
 import "./cart.css";
